@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Blog Modern</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: white;
+      text-align: center;
+      padding: 50px 20px 30px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    header marquee {
+      font-size: 16px;
+      font-style: italic;
+      margin-top: 8px;
+      color: #e0f2fe;
+    }
+
+    /* Navbar */
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      border-radius: 0 0 20px 20px;
+    }
+    nav a {
+      color: #4f46e5;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 16px;
+      transition: 0.3s;
+      position: relative;
+    }
+    nav a::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background: #06b6d4;
+      left: 0;
+      bottom: -5px;
+      transition: 0.3s;
+      border-radius: 10px;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    /* Section */
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    section:hover {
+      transform: translateY(-5px);
+    }
+    section h2 {
+      color: #4f46e5;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+    section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* Galeri */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      background: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      font-size: 14px;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>JUDUL WEB / BLOG</h1>
+    <marquee>✨ Selamat datang di blog modern saya ✨</marquee>
+  </header>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#profil">Profil</a>
+    <a href="#galeri">Galeri</a>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="beranda">
+    <h2>Beranda</h2>
+    <p>Berisi tentang deskripsi dan berbagai macam produk dari sebuah web/blog dengan tampilan modern dan menarik.</p>
+  </section>
+
+  <!-- Profil -->
+  <section id="profil">
+    <h2>Profil</h2>
+    <p>Berisi biodata pembuat blog/web. Anda bisa menambahkan nama, foto, dan informasi pribadi lainnya di sini.</p>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri">
+    <h2>Galeri</h2>
+    <p>Berikut beberapa foto beserta deskripsinya:</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x150" alt="Foto 1">
+      <img src="https://via.placeholder.com/200x150" alt="Foto 2">
+      <img src="https://via.placeholder.com/200x150" alt="Foto 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    copyright@nama_anda2025
+  </footer>
+</body>
+</html>
