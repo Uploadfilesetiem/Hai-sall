@@ -1,0 +1,1 @@
+https://safelinkearn.com/?shortid=aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xS3NZdVlCdklSZ1AtTXhIcVhZMHZCNjM0MURfNktGV2ovdmlldz91c3A9c2hhcmluZw==
